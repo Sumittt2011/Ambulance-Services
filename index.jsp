@@ -86,7 +86,7 @@ table thead {
 </style> 
 </head>
 <body class="host_version" style="width: auto;">
-	<jsp:include page="header.jsp"></jsp:include>
+	<jsp:include page="./WebContent/header.jsp"></jsp:include>
 	<div id="bootstrap-touch-slider"
 		class="carousel bs-slider fade  control-round indicators-line"
 		data-ride="carousel" data-pause="hover" data-interval="false">
@@ -100,7 +100,7 @@ table thead {
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
 				<div id="home" class="first-section"
-					style="background-image: url('uploads/123.jpg');background-repeat: no-repeat;">
+					style="background-image: url('./WebContent/uploads/123.jpg');background-repeat: no-repeat;">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12 col-sm-12 text-center">
@@ -122,12 +122,12 @@ table thead {
 			</div>
 			<div class="item">
 				<div id="home" class="first-section"
-					style="background-image: url('uploads/ambu1.png'); background-repeat: no-repeat;">
+					style="background-image: url('./WebContent/uploads/ambu1.png'); background-repeat: no-repeat;">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12 col-sm-12 text-center">
 								<div class="big-tagline">
-									<!-- <img src="images/logos/ambulance.jpg" alt="image"> -->
+									<!-- <img src="./WebContent/images/logos/ambulance.jpg" alt="image"> -->
 									<h2 data-animation="animated zoomInRight">
 										<strong>Ambulance Services</strong>
 									</h2>
@@ -150,7 +150,7 @@ table thead {
 						<div class="row">
 							<div class="col-md-12 col-sm-12 text-center">
 								<div class="big-tagline">
-									<!-- <img src="images/logos/logo-hosting.png" alt="image"> -->
+									<!-- <img src="./WebContent/images/logos/logo-hosting.png" alt="image"> -->
 									<h2 data-animation="animated zoomInRight">
 										<strong>Ambulance Services</strong>
 									</h2>
@@ -197,7 +197,7 @@ table thead {
 
 				<div class="col-md-6">
 					<div class="post-media wow fadeIn">
-						<img src="images/logos/ambulance1.png" alt=""
+						<img src="./WebContent/images/logos/ambulance1.png" alt=""
 							class="img-responsive img-rounded">
 					</div>
 					<!-- end media -->
@@ -293,9 +293,9 @@ table thead {
 		class="fa fa-angle-up"></i></a>
 
 	<!-- ALL JS FILES -->
-	<script src="js/all.js"></script>
+	<script src="./WebContent/js/all.js"></script>
 	<!-- ALL PLUGINS -->
-	<script src="js/custom.js"></script>
+	<script src="./WebContent/js/custom.js"></script>
 
 </body>
 </html>
